@@ -1,0 +1,12 @@
+Sequential test summary
+- Server port: 51234
+- Clients run: client_1.txt to client_10.txt
+- Result: every client produced 100000 output lines
+- Server stderr: empty
+
+Parallel test summary
+- Server port: 51234
+- Clients run concurrently: client_1.txt to client_10.txt
+- Result: every client produced 100000 output lines
+- Server stderr: empty
+- Final server stats snapshot reached 1000000 total operations and 10 total clients
