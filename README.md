@@ -7,8 +7,8 @@ This project implements a TCP tuple space client and multithreaded server in Pyt
 - `TupleSpaceServer.py`: starts the tuple space server.
 - `TupleSpaceClient.py`: reads workload files and sends requests to the server.
 - `tuple_protocol.py`: shared protocol framing helpers.
-- `client_1.txt` to `client_10.txt`: supplied workload files.
 - `sample_requests.txt`: small smoke-test workload.
+- `test_summary.txt`: records the supplied sequential and parallel workload test results.
 
 ## Running
 
